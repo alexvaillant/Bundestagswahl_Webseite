@@ -1,0 +1,7 @@
+CDU/CSU,23.1
+SPD,26.4
+GRÜNE,16.0
+FDP,11.4
+DIE LINKE,5.0
+AfD,10.7
+Sonstige,7.2

@@ -1,0 +1,26 @@
+{% extends "layouts/main.html" %}
+{% block content %}
+
+    <h4>Durchschnittliche Ergebnisse der Sonntagsfrage:</h4>
+
+    <div class="row">
+        <div class="six columns">
+            <table class="u-full-width">
+                <thead>
+                <tr>
+                    <th>Partei</th>
+                    <th>Umfrage-Wert</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in pollresult %}
+                    <tr>
+                        <td>{{ item }}</td>
+                        <td>{{ pollresult[item] }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+{% endblock %}
